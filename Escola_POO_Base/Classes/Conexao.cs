@@ -47,6 +47,7 @@ namespace Escola_POO_Base.Classes
         }
 
 
+
         //E um outro metodo para fechar a conexão com o banco.
         public void FecharConexao()
         {

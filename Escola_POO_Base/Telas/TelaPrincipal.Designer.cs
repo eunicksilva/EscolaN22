@@ -42,7 +42,6 @@
             this.tsiAlterarSenha = new System.Windows.Forms.ToolStripMenuItem();
             this.tsiCadastro = new System.Windows.Forms.ToolStripMenuItem();
             this.tsiCadastrarAluno = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tmrRelogio = new System.Windows.Forms.Timer(this.components);
             this.sspRodape.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -109,7 +108,7 @@
             // tslDataHora
             // 
             this.tslDataHora.Name = "tslDataHora";
-            this.tslDataHora.Size = new System.Drawing.Size(306, 17);
+            this.tslDataHora.Size = new System.Drawing.Size(456, 17);
             this.tslDataHora.Spring = true;
             this.tslDataHora.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -135,7 +134,7 @@
             // tsiAlterarSenha
             // 
             this.tsiAlterarSenha.Name = "tsiAlterarSenha";
-            this.tsiAlterarSenha.Size = new System.Drawing.Size(144, 22);
+            this.tsiAlterarSenha.Size = new System.Drawing.Size(180, 22);
             this.tsiAlterarSenha.Text = "Alterar Senha";
             this.tsiAlterarSenha.Click += new System.EventHandler(this.tsiAlterarSenha_Click);
             // 
@@ -150,17 +149,9 @@
             // tsiCadastrarAluno
             // 
             this.tsiCadastrarAluno.Name = "tsiCadastrarAluno";
-            this.tsiCadastrarAluno.Size = new System.Drawing.Size(106, 22);
+            this.tsiCadastrarAluno.Size = new System.Drawing.Size(180, 22);
             this.tsiCadastrarAluno.Text = "Aluno";
             this.tsiCadastrarAluno.Click += new System.EventHandler(this.tsiCadastrarAluno_Click);
-            // 
-            // toolStrip1
-            // 
-            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1014, 25);
-            this.toolStrip1.TabIndex = 3;
-            this.toolStrip1.Text = "toolStrip1";
             // 
             // tmrRelogio
             // 
@@ -171,7 +162,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 649);
-            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.sspRodape);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
@@ -201,7 +191,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsiAlterarSenha;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripStatusLabel tslPerfilUserLogado;
-        private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripMenuItem tsiCadastro;
         private System.Windows.Forms.ToolStripMenuItem tsiCadastrarAluno;
         private System.Windows.Forms.Timer tmrRelogio;

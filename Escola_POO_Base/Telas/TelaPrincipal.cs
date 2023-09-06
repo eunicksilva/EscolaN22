@@ -59,7 +59,7 @@ namespace Escola_POO_Base.Telas
             }
 
 
-            lblTelaPrincipal.Text = $"Bem vindo(a), {_userLogado.Nome}!";
+            
             tslNomeUserLogado.Text = _userLogado.Nome;
             tslEmailUserLogado.Text = _userLogado.Email;
 
@@ -93,7 +93,8 @@ namespace Escola_POO_Base.Telas
         private void tsiCadastrarAluno_Click(object sender, EventArgs e)
         {
             TelaCadastraAluno tlCadastraAluno = new TelaCadastraAluno(_userLogado);
-            tlCadastraAluno.ShowDialog();
+            tlCadastraAluno.MdiParent = this;
+            tlCadastraAluno.Show();
 
         }
 

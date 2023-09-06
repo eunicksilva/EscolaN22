@@ -240,6 +240,7 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(309, 20);
             this.txtBuscar.TabIndex = 2;
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
             // 
             // cbbBuscar
             // 
@@ -301,6 +302,7 @@
             this.Name = "TelaCadastraAluno";
             this.Text = "Cadastra Aluno";
             this.Load += new System.EventHandler(this.TelaCadastraAluno_Load);
+            this.Shown += new System.EventHandler(this.TelaCadastraAluno_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
